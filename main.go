@@ -195,6 +195,6 @@ func handlerPost(w http.ResponseWriter, r *http.Request) {
 		panic(err)
 		return
 	}
-	fmt.Printf("Post is saved to BigTable: %s\n", p.Message)ge
+	fmt.Printf("Post is saved to BigTable: %s\n", p.Message)
 
 }
